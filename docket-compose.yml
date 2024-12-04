@@ -1,0 +1,8 @@
+services:
+  test-api:
+    build:
+      context: .
+    environment:
+      ARTIFICIAL_DELAY_IN_SECONDS: 5
+    ports:
+      - 80:80
